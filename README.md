@@ -77,8 +77,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //1.create react app
   2.configure tailwind css
   3-Header
+  -routing of app
    -login form
    -sign up form
+   -Form validation
+   -useRef hook
+   -firebase setup
+   -deploying app to production
+   -Create Signup user Account
+    -auth
+    -implement sign in user api
+    -create redux store with userslice
 
 
 # features 
@@ -91,3 +100,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
      -title description
      -movie suggestions + vertically scrollable
      -
+
+//3:4:00
