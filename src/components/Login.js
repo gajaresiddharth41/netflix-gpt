@@ -48,7 +48,7 @@ const Login = () => {
           updateProfile(user, {
             displayName: name.current.value,
             photoURL:
-              "https://th.bing.com/th/id/OIP.Rg2FmvXuSaiA7GHVqvuY0QHaFj?rs=1&pid=ImgDetMain",
+              "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e",
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -61,7 +61,7 @@ const Login = () => {
                 })
               );
                
-              navigate("/browse");
+              // navigate("/browse"); 
               // Profile updated!
               // ...
             })
@@ -77,6 +77,7 @@ const Login = () => {
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
+
           // ..
           setErrorMessage(errorCode, errorMeassage);
         });
@@ -91,7 +92,7 @@ const Login = () => {
           // Signed in
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
+          // navigate("/browse");
           // ...
         })
         .catch((error) => {
