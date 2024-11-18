@@ -91,6 +91,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     -bugfix sign up user displayname profile update
     -bugfix - if the user is not logged in redirect browse to login page and vice-versa
     - unsubscribe to the onAuthStateChanged callback
+    -
 
 
 # features 
